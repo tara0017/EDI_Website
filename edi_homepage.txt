@@ -367,11 +367,11 @@ h3{
       <h1>Simple Span Bridges</h1>
       <img src="https://dqzrr9k4bjpzk.cloudfront.net/images/75273/428974566.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open.</p>
+      <p>Students build multiple span bridges, each time looking to improve how much weight their bridge is able to hold.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Span/beam bridge, support beams</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>The teacher demonstrates how to build the support beams by layering seven layers of sticks alternating between four and three sticks per layer.  Each student then glues their own. Once finished, students combine their support beam with their partner's and add sticks across the beams to form the bridge.  The next class these bridges are tested and the amount of weight held is recorded on the whiteboard. Students then make a second bridge, this time with less direct instruction from the teacher. The third day the process is repeated. The bridge the kids build this day will be used for the competition and therefore should be their best work.  On the fourth class students are allowed to decorate their final bridge with markers and crayons. At the end of class we test the final bridges and students earn candy based on the amount of weight their bridge held.</p>
     </div>
     
     <div class="contentPane" id="strawRocketsOne">
