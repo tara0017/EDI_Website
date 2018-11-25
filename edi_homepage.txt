@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+button{
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: fixed; 
+    left: -480px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-align: right;
+    color: black;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home{
+	position: fixed;
+    margin-top: -110px;
+    left: 10px;
+    border-radius: 0;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+}
+
+#topNav {
+    width: 110%;
+    background-color: black;
+    color: white;
+    height: 115px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: -10px;
+}
+#topNav h3{
+    margin-top: -10px;
+}
+#schoolInfo {
+    color: white;
+    text-align: right;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    line-height: 0%
+}
+h1{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+#first {
+    top: 120px;
+    background-color: red;
+}
+
+.firstProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.firstGradeProjects button:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+#second {
+    top: 180px;
+    background-color: orange;
+}
+
+.secondProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.secondGradeProjects button:hover {
+    background-color: #ff7000;
+    color: white;
+}
+
+#third {
+    top: 240px;
+    background-color: yellow;
+}
+.thirdProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.thirdGradeProjects button:hover {
+    background-color: #f7cf16;
+    
+}
+
+#fourth {
+    top: 300px;
+    background-color: #0F0;
+}
+.fourthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.fourthGradeProjects button:hover {
+    background-color: green;
+    color: white;
+}
+
+#fifth {
+    top: 360px;
+    background-color: blue;
+}
+.fifthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.fifthGradeProjects button:hover {
+    background-color: #2616a0;
+    color: white;
+}
+
+#sixth {
+    top: 420px;
+    background-color: purple;
+}
+.sixthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.sixthGradeProjects button:hover {
+    background-color: #530b5e;
+    color: white;
+}
+.contentPane{
+  margin-left:80px;
+  margin-top: 120px;
+  display: none;
+}
+
+#mission{
+  display: block;
+}
+#dogBeds{
+  display: none;
+}
+#bridgesOne{
+  display: none;
+}
+#strawRocketsOne{
+  display: none;
+}
+#leverAndFulcrum{
+  display: none;
+}
+#roboticsOne{
+  display: none;
+}
+
+#earthquakeTowers{
+  display: none;
+}
+#buoyancy{
+  display: none;
+}
+#thermalImaging{
+  display: none;
+}
+#rocketsTwo{
+  display: none;
+}
+#roboticsTwo{
+  display: none;
+}
+
+#bridgesThree{
+  display: none;
+}
+#windTurbine{
+  display: none;
+}
+#rocketsThree{
+  display: none;
+}
+#thermalImagingThree{
+  display: none;
+}
+#roboticsThree{
+  display: none;
+}
+
+#circuits{
+  display: none;
+}
+#makeyMakey{
+  display: none;
+}
+#CAD{
+  display: none;
+}
+#wireMazes{
+  display: none;
+}
+#threeDPrinting{
+  display: none;
+}
+    </style>
+  </head>
+
+<!----------------------------->
+
+  <body>
+    <div id="topNav">
+      <h1>EDI</h1>
+      <h3>Engineering Design and Innovation</h3>
+    </div>
+    
+     <div id="schoolInfo">
+      <h4>Norfolk Academy</h4>
+      <h4>1585 Wesleyan Dr</h4>
+      <h4>Norfolk, VA 23502</h4>
+    </div>
+    
+    <button onclick="homePage()" id="home">Home</button> 
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="#" id="first">
+        <div class="firstGradeProjects">
+          <button onclick="dogBedsOn()" class="firstProject" >Dog beds</button> 
+          <button onclick="bridgesOneOn()" class="firstProject" onclick="myFunction()">Bridges</button> 
+          <button onclick="strawRocketsOn()" class="firstProject">Straw rockets</button> 
+          <button onclick="leverAndFulcrumOn()" class="firstProject">Lever and fulcrum</button> 
+          <button onclick="roboticsOneOn()" class="firstProject">Robotics</button> 
+        </div>
+        1st
+      </a>
+      <a href="#" id="second">
+        <div class="secondGradeProjects">
+          <button onclick="earthquakeTowersOn()" class="secondProject">Earthquake towers</button> 
+          <button onclick="buoyancyOn()" class="secondProject">Buoyancy</button> 
+          <button onclick="thermalImagingOn()" class="secondProject">Thermal imaging</button> 
+          <button onclick="rocketsTwoOn()" class="secondProject">Rockets</button> 
+          <button onclick="roboticsTwoOn()" class="secondProject">Robotics</button> 
+        </div>      
+        2nd</a>
+      <a href="#" id="third">
+        <div class="thirdGradeProjects">
+          <button onclick="bridgesThreeOn()" class="thirdProject">Complex bridges</button> 
+          <button onclick="windTurbineOn()" class="thirdProject">Wind turbine</button> 
+          <button onclick="rocketsThreeOn()" class="thirdProject">Rockets</button> 
+          <button onclick="thermalImagingThreeOn()" class="thirdProject">Thermal Imaging</button> 
+          <button onclick="roboticsThreeOn()" class="thirdProject">Robotics</button> 
+        </div>      
+      
+      3rd</a>
+      <a href="#" id="fourth">
+        <div class="fourthGradeProjects">
+          <button onclick="circuitsOn()" class="fourthProject">Circuits</button> 
+          <button onclick="makeyMakeyOn()" class="fourthProject">Makey Makey</button> 
+          <button onclick="CADOn()" class="fourthProject">CAD</button> 
+          <button onclick="wireMazesOn()" class="fourthProject">Wire mazes</button> 
+          <button onclick="threeDPrintingOn()" class="fourthProject">3D printing</button> 
+        </div>         
+      4th</a>
+      <a href="#" id="fifth">
+        <div class="fifthGradeProjects">
+          <button class="fifthProject">Text</button> 
+          <button class="fifthProject"></button> 
+          <button class="fifthProject"></button> 
+          <button class="fifthProject"></button> 
+          <button class="fifthProject"></button> 
+        </div>         
+      5th</a>
+      <a href="#" id="sixth">
+        <div class="sixthGradeProjects">
+          <button class="sixthProject">Text</button> 
+          <button class="sixthProject"></button> 
+          <button class="sixthProject"></button> 
+          <button class="sixthProject"></button> 
+          <button class="sixthProject"></button> 
+        </div>         
+      6th</a>
+    </div>
+
+<!---------------------------------HOME PAGE--------------------------------->
+    <div class="contentPane" id="mission">
+      <h1>EDI Mission Statement</h1>
+      <img src="https://theworks.org/wp-content/uploads/2017/01/EDP_The_Works_Museum_2016_web.jpg" alt="picture" style="width:350px; float:right;">
+    
+      <p>The Engineering, Design, and Innovation (EDI) program at Norfolk Academy strives to provide an engineering platform for students in grades 1 through 12 by offering classes rich in project-based team challenges rooted in real-world engineering fundamentals. EDI projects should emphasize the physical process of prototype creation, and the production of tangible work products. By utilizing the iterative nature of the engineering design process students develop problem solving skills and technical competence. The EDI program seeks to challenge students with projects that are</p>
+      
+      <ul>
+     	<li>Relevant and Realistic. Providing an engaging, modern, real-world experience,</li>
+     	<li>Team Based. Emphasizing the “Three C’s” of communication, collaboration and compromise,</li>
+        <li>Empathetically Driven. Identifying the needs of the community, working to improve society</li>
+      </ul>
+     
+      <p>in order to prepare creative and responsible leaders in the workplace and as members of society.</p>
+    </div>
+
+<!---------------------------------FIRST GRADE--------------------------------->
+    <div class="contentPane" id="dogBeds">
+      <h1>Dog Beds</h1>
+      <img src="https://i.pinimg.com/280x280_RS/37/87/c3/3787c3cf944ad5b6158d2c8c82b34208.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Design and build a dog bed for our school mascot "Edi" the bulldog.</p>
+      <h2>~ Key Topics</h2>
+      <p>Budget, client, resources</p>
+      <h2>~ Process</h2>
+      <p>We start the year by reading the book ????. Through this story we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
+      <ul>Integration of the three C's
+      	<li>Communication:</li>
+        <li>Collaboration:</li>
+        <li>Compromise:</li>
+      </ul>
+      <p></p>
+    </div>
+  
+    <div class="contentPane" id="bridgesOne">
+      <h1>Simple Span Bridges</h1>
+      <img src="https://dqzrr9k4bjpzk.cloudfront.net/images/75273/428974566.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open.</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="strawRocketsOne">
+      <h1>Straw Rockets</h1>
+      <img src="https://www.pitsco.com/sharedimages/product/icongo/iCg_BlueStrawRocketTriFins.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="leverAndFulcrum">
+      <h1>Lever and Fulcrum</h1>
+      <img src="https://media.giphy.com/media/13nmD9iEcbfRio/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="roboticsOne">
+      <h1>Mice Robotics</h1>
+      <img src="https://makingofamom.com/wp-content/uploads/2016/04/through-the-maze.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    
+<!---------------------------------SECOND GRADE--------------------------------->    
+    <div class="contentPane" id="earthquakeTowers">
+      <h1>Earthquake Towers</h1>
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_BALSATOWER.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="buoyancy">
+      <h1>Buoyancy</h1>
+      <img src="http://www.raisingarizonakids.com/wp-content/uploads/2014/02/AlhambraES_sinking-pennies.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="thermalImaging">
+      <h1>Thermal Imaging</h1>
+      <img src="http://smashinghub.com/wp-content/uploads/2012/07/thermal-imaging-8.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="rocketsTwo">
+      <h1>Rockets</h1>
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="roboticsTwo">
+      <h1>Dash Robotics</h1>
+      <img src="https://www.rctecnic.com/img/cms/Dash/dash.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------THIRD GRADE--------------------------------->    
+    <div class="contentPane" id="bridgesThree">
+      <h1>Complex Bridges</h1>
+      <img src="https://i.pinimg.com/originals/c0/6f/e2/c06fe29a5fbb745a8e37c8da4133a751.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="windTurbine">
+      <h1>Wind Turbine</h1>
+      <img src="https://archive.manylabs.org/file/project/windTurbine/wind-proto-1200.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="rocketsThree">
+      <h1>Rockets</h1>
+      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="thermalImagingThree">
+      <h1>Thermal Imaging</h1>
+      <img src="https://media0.giphy.com/media/rzggbyhdDX5Ic/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="roboticsThree">
+      <h1>Dash Robotics</h1>
+      <img src="https://cdn.shopify.com/s/files/1/2298/6635/products/5_4d7f9320-fb4b-44c6-92a9-eed2817255c8_1600x.png?v=1525887482" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------FOURTH GRADE--------------------------------->    
+    <div class="contentPane" id="circuits">
+      <h1>Circuits</h1>
+      <img src="https://pbs.twimg.com/profile_images/724670086733160449/naJ4KxT9_400x400.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="makeyMakey">
+      <h1>Makey Makey</h1>
+      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="CAD">
+      <h1>CAD (Computer-Aided Design)</h1>
+      <img src="https://i.ytimg.com/vi/u-Ky9MxVhCg/maxresdefault.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="wireMazes">
+      <h1>Wire Mazes</h1>
+      <img src="https://cdn.thingiverse.com/assets/0e/65/9f/f3/33/FluxCapacitor-1.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="threeDPrinting">
+      <h1>3D Printing</h1>
+      <img src="https://media.giphy.com/media/XKSMiiFwoihHy/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------FIFTH GRADE--------------------------------->    
+    
+
+    
+
+
+  <script>
+  
+function homePage(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("mission").style.display = "block";
+}
+/////////////////////////   1st grade    /////////////////////
+function dogBedsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("dogBeds").style.display = "block";
+}
+function bridgesOneOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("bridgesOne").style.display = "block";
+}
+function strawRocketsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("strawRocketsOne").style.display = "block";	
+}
+function leverAndFulcrumOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("leverAndFulcrum").style.display = "block";
+}
+function roboticsOneOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsOne").style.display = "block";	
+}
+/////////////////////////   2nd grade    /////////////////////
+function earthquakeTowersOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("earthquakeTowers").style.display = "block";
+}
+function buoyancyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("buoyancy").style.display = "block";
+}
+function thermalImagingOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("thermalImaging").style.display = "block";	
+}
+function rocketsTwoOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("rocketsTwo").style.display = "block";
+}
+function roboticsTwoOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsTwo").style.display = "block";	
+}
+/////////////////////////   3rd grade    /////////////////////
+function bridgesThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("bridgesThree").style.display = "block";
+}
+function windTurbineOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("windTurbine").style.display = "block";
+}
+function thermalImagingThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("thermalImagingThree").style.display = "block";	
+}
+function rocketsThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("rocketsThree").style.display = "block";
+}
+function roboticsThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsThree").style.display = "block";	
+}
+/////////////////////////   4th grade    /////////////////////
+function circuitsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("circuits").style.display = "block";
+}
+function makeyMakeyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("makeyMakey").style.display = "block";
+}
+function CADOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("CAD").style.display = "block";	
+}
+function wireMazesOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("wireMazes").style.display = "block";
+}
+function threeDPrintingOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("threeDPrinting").style.display = "block";	
+}
+/////////////////////////   5th grade    /////////////////////
+
+
+
+  </script>  
+  </body>
+</html>
