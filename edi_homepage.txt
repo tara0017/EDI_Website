@@ -354,7 +354,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Budget, client, resources</p>
       <h2>~ Process</h2>
-      <p>We start the year by reading the book "Sad Doggy" by Jennifer B. Lawrence. Through this story we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
+      <p>We start the year by reading the book ????. Through this story we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
       <ul>Integration of the three C's
       	<li>Communication:</li>
         <li>Collaboration:</li>
