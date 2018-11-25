@@ -386,12 +386,12 @@ h3{
     </div>
         
     <div class="contentPane" id="leverAndFulcrum">
-      <h1>Lever and Fulcrum</h1>
+      <h1>Playground Physics</h1>
       <img src="https://media.giphy.com/media/13nmD9iEcbfRio/giphy.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Simple machines, lever and fulcrum, inclined plane, pendulum</p>
       <h2>~ Process</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
