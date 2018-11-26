@@ -428,7 +428,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Buoyancy, displacement</p>
       <h2>~ Process</h2>
-      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class, students are challenged to beat their old score using nothing but a sheet of alluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
+      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of alluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
     </div>
     
     <div class="contentPane" id="thermalImaging">
