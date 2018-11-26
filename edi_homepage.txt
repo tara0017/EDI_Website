@@ -213,7 +213,7 @@ h3{
 #thermalImaging{
   display: none;
 }
-#rocketsTwo{
+#zipLinesTwo{
   display: none;
 }
 #roboticsTwo{
@@ -286,7 +286,7 @@ h3{
           <button onclick="earthquakeTowersOn()" class="secondProject">Earthquake towers</button> 
           <button onclick="buoyancyOn()" class="secondProject">Buoyancy</button> 
           <button onclick="thermalImagingOn()" class="secondProject">Thermal imaging</button> 
-          <button onclick="rocketsTwoOn()" class="secondProject">Rockets</button> 
+          <button onclick="zipLinesTwoOn()" class="secondProject">Zip lines</button> 
           <button onclick="roboticsTwoOn()" class="secondProject">Robotics</button> 
         </div>      
         2nd</a>
@@ -442,8 +442,8 @@ h3{
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
         
-    <div class="contentPane" id="rocketsTwo"> <!------CHANGE TO ZIP LINES----------->
-      <h1>Rockets</h1>
+    <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
+      <h1>Zip Lines</h1>
       <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
@@ -649,12 +649,12 @@ function thermalImagingOn(){
     }
     document.getElementById("thermalImaging").style.display = "block";	
 }
-function rocketsTwoOn(){
+function zipLinesTwoOn(){
 	var x = document.getElementsByClassName("contentPane");
     for(var i = 0; i < x.length; i++){
 	    x[i].style.display = "none";    	
     }
-    document.getElementById("rocketsTwo").style.display = "block";
+    document.getElementById("zipLinesTwo").style.display = "block";
 }
 function roboticsTwoOn(){
 	var x = document.getElementsByClassName("contentPane");
