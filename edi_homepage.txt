@@ -417,7 +417,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Process</h2>
-      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks whith which they attempt to make the tower 6" taller.</p>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks With which they attempt to make the tower 6" taller.</p>
     </div>
   
     <div class="contentPane" id="buoyancy">
