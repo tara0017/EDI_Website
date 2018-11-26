@@ -400,9 +400,9 @@ h3{
       <h1>Mice Robotics</h1>
       <img src="https://makingofamom.com/wp-content/uploads/2016/04/through-the-maze.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>First graders get an introduction to robotics and algorithms through robot mice. Students program instructions for the robot to follow in order to reach the cheese</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Algorithms</p>
       <h2>~ Process</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
