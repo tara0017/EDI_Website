@@ -444,7 +444,7 @@ h3{
         
     <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
       <h1>Zip Lines</h1>
-      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
+      <img src="https://ds-assets.pbskids.org/diy/PA162663.JPG" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
