@@ -413,22 +413,22 @@ h3{
       <h1>Earthquake Towers</h1>
       <img src="https://www.pitsco.com/iCongoProductImages/iCg_BALSATOWER.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students learn about and attempt to build earthquake-proof towers.</p>
       <h2>~ Key Topics</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks whith which they attempt to make the tower 6" taller.</p>
     </div>
   
     <div class="contentPane" id="buoyancy">
       <h1>Buoyancy</h1>
       <img src="http://www.raisingarizonakids.com/wp-content/uploads/2014/02/AlhambraES_sinking-pennies.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students attempt to build boats out of an assortment of materials that will hold as many pennies as possible.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Buoyancy, displacement</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of alluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
     </div>
     
     <div class="contentPane" id="thermalImaging">
@@ -442,7 +442,7 @@ h3{
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
         
-    <div class="contentPane" id="rocketsTwo">
+    <div class="contentPane" id="rocketsTwo"> <!------CHANGE TO ZIP LINES----------->
       <h1>Rockets</h1>
       <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
