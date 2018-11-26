@@ -389,7 +389,7 @@ h3{
       <h1>Playground Physics</h1>
       <img src="https://media.giphy.com/media/13nmD9iEcbfRio/giphy.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students explore a few simple machines found in playgrounds.</p>
       <h2>~ Key Topics</h2>
       <p>Simple machines, lever and fulcrum, inclined plane, pendulum</p>
       <h2>~ Process</h2>
