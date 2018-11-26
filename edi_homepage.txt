@@ -376,7 +376,7 @@ h3{
     
     <div class="contentPane" id="strawRocketsOne">
       <h1>Straw Rockets</h1>
-      <img src="https://www.pitsco.com/sharedimages/product/icongo/iCg_BlueStrawRocketTriFins.jpg" alt="picture" style="width:350px; float:right;">
+      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
@@ -489,7 +489,7 @@ h3{
     
     <div class="contentPane" id="rocketsThree">
       <h1>Rockets</h1>
-      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
