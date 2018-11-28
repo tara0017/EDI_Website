@@ -65,7 +65,7 @@ h3{
 }
 
 #first {
-    top: 120px;
+    top: 170px;
     background-color: red;
 }
 
@@ -85,7 +85,7 @@ h3{
 }
 
 #second {
-    top: 180px;
+    top: 230px;
     background-color: orange;
 }
 
@@ -105,7 +105,7 @@ h3{
 }
 
 #third {
-    top: 240px;
+    top: 290px;
     background-color: yellow;
 }
 .thirdProject {
@@ -124,7 +124,7 @@ h3{
 }
 
 #fourth {
-    top: 300px;
+    top: 350px;
     background-color: #0F0;
 }
 .fourthProject {
@@ -143,7 +143,7 @@ h3{
 }
 
 #fifth {
-    top: 360px;
+    top: 410px;
     background-color: blue;
 }
 .fifthProject {
@@ -162,7 +162,7 @@ h3{
 }
 
 #sixth {
-    top: 420px;
+    top: 470px;
     background-color: purple;
 }
 .sixthProject {
@@ -257,16 +257,21 @@ h3{
 <!----------------------------->
 
   <body>
+    
+
+    
     <div id="topNav">
       <h1>EDI</h1>
-      <h3>Engineering Design and Innovation</h3>
-    </div>
-    
-     <div id="schoolInfo">
+          
+    <div id="schoolInfo">
       <h4>Norfolk Academy</h4>
       <h4>1585 Wesleyan Dr</h4>
       <h4>Norfolk, VA 23502</h4>
     </div>
+      <h3>Engineering Design and Innovation</h3>
+    </div>
+    
+
     
     <button onclick="homePage()" id="home">Home</button> 
     
@@ -276,7 +281,7 @@ h3{
           <button onclick="dogBedsOn()" class="firstProject" >Dog beds</button> 
           <button onclick="bridgesOneOn()" class="firstProject" onclick="myFunction()">Bridges</button> 
           <button onclick="strawRocketsOn()" class="firstProject">Straw rockets</button> 
-          <button onclick="leverAndFulcrumOn()" class="firstProject">Lever and fulcrum</button> 
+          <button onclick="leverAndFulcrumOn()" class="firstProject">Playground physics</button> 
           <button onclick="roboticsOneOn()" class="firstProject">Robotics</button> 
         </div>
         1st
@@ -523,7 +528,7 @@ h3{
 <!---------------------------------FOURTH GRADE--------------------------------->    
     <div class="contentPane" id="circuits">
       <h1>Circuits</h1>
-      <img src="https://pbs.twimg.com/profile_images/724670086733160449/naJ4KxT9_400x400.jpg" alt="picture" style="width:350px; float:right;">
+      <img src="https://ksr-ugc.imgix.net/assets/012/382/767/7bcf6e96ca749ad8c3ccda6502b3f28e_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463758159&auto=format&frame=1&q=92&s=d460658c3ab90118435c6ef53fa103f7" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
