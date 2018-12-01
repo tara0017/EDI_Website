@@ -383,11 +383,12 @@ h3{
       <h1>Straw Rockets</h1>
       <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students explore the forces that affect how planes and rockets fly by building and testing different designs</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Forces affecting planes and rockets: <br>
+      &nbsp &nbsp &nbsp &nbsp Thrust, drag, lift, gravity</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>We begin by looking over a powerpoint that explains how each force affects the flight of planes and rockets. Later that day students build paper airplanes and test their design in one of two competitions: A distance challenge and an accuracy challenge (seeing how far they can shoot it through a Hola-Hoop. The next day students bild straw rockets  and test them through our two courses. On the third day we get to experiment a bit more with the rocket design. Students test rockets with different length bodies, different fin design and placement.  On the last day of this project students must take everything they learned and synthesize it to design and build their optimal rocket. We then have a challenge day through our two courses to see which rocket performs best.</p>
     </div>
         
     <div class="contentPane" id="leverAndFulcrum">
