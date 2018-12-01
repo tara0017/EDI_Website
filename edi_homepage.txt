@@ -65,7 +65,7 @@ h3{
 }
 
 #first {
-    top: 120px;
+    top: 170px;
     background-color: red;
 }
 
@@ -85,7 +85,7 @@ h3{
 }
 
 #second {
-    top: 180px;
+    top: 230px;
     background-color: orange;
 }
 
@@ -105,7 +105,7 @@ h3{
 }
 
 #third {
-    top: 240px;
+    top: 290px;
     background-color: yellow;
 }
 .thirdProject {
@@ -124,7 +124,7 @@ h3{
 }
 
 #fourth {
-    top: 300px;
+    top: 350px;
     background-color: #0F0;
 }
 .fourthProject {
@@ -143,7 +143,7 @@ h3{
 }
 
 #fifth {
-    top: 360px;
+    top: 410px;
     background-color: blue;
 }
 .fifthProject {
@@ -162,7 +162,7 @@ h3{
 }
 
 #sixth {
-    top: 420px;
+    top: 470px;
     background-color: purple;
 }
 .sixthProject {
@@ -213,7 +213,7 @@ h3{
 #thermalImaging{
   display: none;
 }
-#rocketsTwo{
+#zipLinesTwo{
   display: none;
 }
 #roboticsTwo{
@@ -257,16 +257,21 @@ h3{
 <!----------------------------->
 
   <body>
+    
+
+    
     <div id="topNav">
       <h1>EDI</h1>
-      <h3>Engineering Design and Innovation</h3>
-    </div>
-    
-     <div id="schoolInfo">
+          
+    <div id="schoolInfo">
       <h4>Norfolk Academy</h4>
       <h4>1585 Wesleyan Dr</h4>
       <h4>Norfolk, VA 23502</h4>
     </div>
+      <h3>Engineering Design and Innovation</h3>
+    </div>
+    
+
     
     <button onclick="homePage()" id="home">Home</button> 
     
@@ -276,7 +281,7 @@ h3{
           <button onclick="dogBedsOn()" class="firstProject" >Dog beds</button> 
           <button onclick="bridgesOneOn()" class="firstProject" onclick="myFunction()">Bridges</button> 
           <button onclick="strawRocketsOn()" class="firstProject">Straw rockets</button> 
-          <button onclick="leverAndFulcrumOn()" class="firstProject">Lever and fulcrum</button> 
+          <button onclick="leverAndFulcrumOn()" class="firstProject">Playground physics</button> 
           <button onclick="roboticsOneOn()" class="firstProject">Robotics</button> 
         </div>
         1st
@@ -286,7 +291,7 @@ h3{
           <button onclick="earthquakeTowersOn()" class="secondProject">Earthquake towers</button> 
           <button onclick="buoyancyOn()" class="secondProject">Buoyancy</button> 
           <button onclick="thermalImagingOn()" class="secondProject">Thermal imaging</button> 
-          <button onclick="rocketsTwoOn()" class="secondProject">Rockets</button> 
+          <button onclick="zipLinesTwoOn()" class="secondProject">Zip lines</button> 
           <button onclick="roboticsTwoOn()" class="secondProject">Robotics</button> 
         </div>      
         2nd</a>
@@ -376,20 +381,21 @@ h3{
     
     <div class="contentPane" id="strawRocketsOne">
       <h1>Straw Rockets</h1>
-      <img src="https://www.pitsco.com/sharedimages/product/icongo/iCg_BlueStrawRocketTriFins.jpg" alt="picture" style="width:350px; float:right;">
+      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students explore the forces that affect how planes and rockets fly by building and testing different designs</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Forces affecting planes and rockets: <br>
+      &nbsp &nbsp &nbsp &nbsp Thrust, drag, lift, gravity</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>We begin by looking over a powerpoint that explains how each force affects the flight of planes and rockets. Later that day students build paper airplanes and test their design in one of two competitions: A distance challenge and an accuracy challenge (seeing how far they can shoot it through a Hola-Hoop. The next day students bild straw rockets  and test them through our two courses. On the third day we get to experiment a bit more with the rocket design. Students test rockets with different length bodies, different fin design and placement.  On the last day of this project students must take everything they learned and synthesize it to design and build their optimal rocket. We then have a challenge day through our two courses to see which rocket performs best.</p>
     </div>
         
     <div class="contentPane" id="leverAndFulcrum">
       <h1>Playground Physics</h1>
       <img src="https://media.giphy.com/media/13nmD9iEcbfRio/giphy.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students explore a few simple machines found in playgrounds.</p>
       <h2>~ Key Topics</h2>
       <p>Simple machines, lever and fulcrum, inclined plane, pendulum</p>
       <h2>~ Process</h2>
@@ -400,9 +406,9 @@ h3{
       <h1>Mice Robotics</h1>
       <img src="https://makingofamom.com/wp-content/uploads/2016/04/through-the-maze.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>First graders get an introduction to robotics and algorithms through robot mice. Students program instructions for the robot to follow in order to reach the cheese</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Algorithms</p>
       <h2>~ Process</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
@@ -413,22 +419,22 @@ h3{
       <h1>Earthquake Towers</h1>
       <img src="https://www.pitsco.com/iCongoProductImages/iCg_BALSATOWER.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students learn about and attempt to build earthquake-proof towers.</p>
       <h2>~ Key Topics</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks With which they attempt to make the tower 6" taller.</p>
     </div>
   
     <div class="contentPane" id="buoyancy">
       <h1>Buoyancy</h1>
       <img src="http://www.raisingarizonakids.com/wp-content/uploads/2014/02/AlhambraES_sinking-pennies.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students attempt to build boats out of an assortment of materials that will hold as many pennies as possible.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Buoyancy, displacement</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of alluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
     </div>
     
     <div class="contentPane" id="thermalImaging">
@@ -442,9 +448,9 @@ h3{
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
         
-    <div class="contentPane" id="rocketsTwo">
-      <h1>Rockets</h1>
-      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
+    <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
+      <h1>Zip Lines</h1>
+      <img src="https://ds-assets.pbskids.org/diy/PA162663.JPG" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
@@ -489,7 +495,7 @@ h3{
     
     <div class="contentPane" id="rocketsThree">
       <h1>Rockets</h1>
-      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
@@ -523,7 +529,7 @@ h3{
 <!---------------------------------FOURTH GRADE--------------------------------->    
     <div class="contentPane" id="circuits">
       <h1>Circuits</h1>
-      <img src="https://pbs.twimg.com/profile_images/724670086733160449/naJ4KxT9_400x400.jpg" alt="picture" style="width:350px; float:right;">
+      <img src="https://ksr-ugc.imgix.net/assets/012/382/767/7bcf6e96ca749ad8c3ccda6502b3f28e_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463758159&auto=format&frame=1&q=92&s=d460658c3ab90118435c6ef53fa103f7" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
@@ -649,12 +655,12 @@ function thermalImagingOn(){
     }
     document.getElementById("thermalImaging").style.display = "block";	
 }
-function rocketsTwoOn(){
+function zipLinesTwoOn(){
 	var x = document.getElementsByClassName("contentPane");
     for(var i = 0; i < x.length; i++){
 	    x[i].style.display = "none";    	
     }
-    document.getElementById("rocketsTwo").style.display = "block";
+    document.getElementById("zipLinesTwo").style.display = "block";
 }
 function roboticsTwoOn(){
 	var x = document.getElementsByClassName("contentPane");
