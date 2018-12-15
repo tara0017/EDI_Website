@@ -475,11 +475,11 @@ h3{
       <h1>Complex Bridges</h1>
       <img src="https://i.pinimg.com/originals/c0/6f/e2/c06fe29a5fbb745a8e37c8da4133a751.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Expanding on our introductory work with bridges in 1st grade, students explore and build different types of bridges using popsticle sticks and hot glue guns.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Span, arch, truss, and suspension bridge</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>We begin this unit by introducing students to the various types of bridges and the advantages and disadvantages of each. Additionally, since this is the first time many of these students will be using hot glue guns, we walk through safety rules when using this equipment.  Our next step is to practice by building a simple span bridge.  After completing and testing these, students next select the type of bridge they want to build for the competition. After designing and sketching out their plan, each pair of students builds their bridge. These are used in a competiton to see which one can hold the most weight.</p>
     </div>
   
     <div class="contentPane" id="windTurbine">
