@@ -486,11 +486,11 @@ h3{
       <h1>Wind Turbine</h1>
       <img src="https://archive.manylabs.org/file/project/windTurbine/wind-proto-1200.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students design and test different blades on their turbine in order to generate as much current as possible</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Renewable wind energy, wind turbine</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>In this project we explore the concept of renewable energy sources. We then narrow our focus by examining wind energy specifically. Throughout this unit students will itterate through mutiple wind blade designs in an attempt to generate as much power as possible when a fan is blowing at it. In the past, this has been a cross-curriculur project as it has aligned with Spanish classes looking at Don Quixote and also with visiting author William Kamkwamba ("The Boy Who Harnessesd the Wind").</p>
     </div>
     
     <div class="contentPane" id="rocketsThree">
