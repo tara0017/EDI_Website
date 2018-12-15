@@ -497,11 +497,12 @@ h3{
       <h1>Rockets</h1>
       <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>This project explores the relationship between the distance a rocket flies and either the thrust or launch angle.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Launch angle, thrust, constant/variable</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students were initialy introduced to rockets and the associated forces in 1st grade. This unit adds a level of complexity by attempting to control and quantify the variables influancing the rocket, namely the thrust and launch angle. We begin by keeping the launch angle at a constant 30 degrees and launching the rockets with different thrusts. Students record their data from the day for analysis at the end. The following day we switch  the constant and variable. The thrust is kept constant as the rocket is fired using varied launch angles. Once again, students record their results for further analysis.  On the last day of this project students must use their previous data to select the thrust and launch angle in order to hit a preditermined target distance.
+</p>
     </div>
     
     <div class="contentPane" id="thermalImagingThree">
