@@ -410,7 +410,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Algorithms</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>These robotic mice require the students to plan a route for the mouse. It must navigate around road blocks and through arches to reach the cheese. Students lay down cards which help them  program the mice using forward, backward, right, and left buttons. On the first day students attempt to complete basic routes as they gain familiarity with the robots. The next day, teacher designed routes add a level of complexity. Students have a wide array of routes to choose from, which helps tailor the insturction to each individual's ability. The next day students design their own routes and challenge classmates to complete their maze. On the final day, a giant maze is set up with multiple starting points.  Students attempt to solve as many routes as possible in order to win a prize.</p>
     </div>
     
     
