@@ -452,22 +452,22 @@ h3{
       <h1>Zip Lines</h1>
       <img src="https://ds-assets.pbskids.org/diy/PA162663.JPG" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students explore zip lines as a tool for recue in the event of a catastrophe.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Slope, break block, friction</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>This unit begins with students attempting to rescue a puppy (golf ball) with the use of a zip line. The objective is to get the cup to stop within a foot of the table leg.If they are successful, their next challenge is to recue a kitten (wooden ball).  Each time they complete the task, they move on to the next animal (i.e. horse with a metal ball and bunny with a ping pong ball). The next round of challenges involves dropping the balls into a cup, that is placed on the floor at the bottom of the zip line.</p>
     </div>
     
     <div class="contentPane" id="roboticsTwo">
       <h1>Dash Robotics</h1>
       <img src="https://www.rctecnic.com/img/cms/Dash/dash.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students expand on their understanding of robotics and coding through the use of the Dash robot.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Coding, algorithms</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>In this unit students are introduced to a new robotics platform, the Dash robot. We begin with a few introductory lessons aimed at familiarizing the students with the robot's drag-and-drop coding software, as well as the range of its capabilities. Once students are familiar with the robot, they are then challenged to navigate Dash through various obstacle courses.</p>
     </div>
     
 <!---------------------------------THIRD GRADE--------------------------------->    
