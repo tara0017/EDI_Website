@@ -410,7 +410,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Algorithms</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>These robotic mice require the students to plan a route for the mouse. It must navigate around road blocks and through arches to reach the cheese. Students lay down cards which help them  program the mice using forward, backward, right, and left buttons. On the first day students attempt to complete basic routes as they gain familiarity with the robots. The next day, teacher designed routes add a level of complexity. Students have a wide array of routes to choose from, which helps tailor the insturction to each individual's ability. The next day students design their own routes and challenge classmates to complete their maze. On the final day, a giant maze is set up with multiple starting points.  Students attempt to solve as many routes as possible in order to win a prize.</p>
     </div>
     
     
@@ -421,9 +421,9 @@ h3{
       <h2>~ Project Description</h2>
       <p>Students learn about and attempt to build earthquake-proof towers.</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Plate tectonics</p>
       <h2>~ Process</h2>
-      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks With which they attempt to make the tower 6" taller.</p>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks with which they attempt to make the tower 6" taller.</p>
     </div>
   
     <div class="contentPane" id="buoyancy">
@@ -509,22 +509,22 @@ h3{
       <h1>Thermal Imaging</h1>
       <img src="https://media0.giphy.com/media/rzggbyhdDX5Ic/giphy.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students get an introduction to the concept of wavelengths, specifically infrared</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Thermal imaging, infrared wavelength</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>In this unit students use infrared cameras attached to ipads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
     </div>
         
     <div class="contentPane" id="roboticsThree">
       <h1>Dash Robotics</h1>
       <img src="https://cdn.shopify.com/s/files/1/2298/6635/products/5_4d7f9320-fb4b-44c6-92a9-eed2817255c8_1600x.png?v=1525887482" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students further develop their coding skills through the use of Dash robots</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Algorithms, coding</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>This unit is intended to build upon and further develop students' coding skills from 2nd grade.  By now students have a basic understanding of the robots and how to control them. Our next goal is to incorporate more complex challenges. In addition, we also incorporate a variety of games that require strategy, cooperation and planning between classmates/teammates.</p>
     </div>
     
 <!---------------------------------FOURTH GRADE--------------------------------->    
