@@ -441,11 +441,11 @@ h3{
       <h1>Thermal Imaging</h1>
       <img src="http://smashinghub.com/wp-content/uploads/2012/07/thermal-imaging-8.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Students get an introduction to the concept of wavelengths, specifically infrared</p>
       <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>Thermal imaging, infrared wavelength</p>
       <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
+      <p>In this unit students use infrared cameras attached to ipads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
     </div>
         
     <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
