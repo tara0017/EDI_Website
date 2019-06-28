@@ -236,52 +236,55 @@ h3{
   display: none;
 }
 
+
+/* 4th grade  */
 #circuits{
   display: none;
 }
 #makeyMakey{
   display: none;
 }
+#forcesAndProps{
+  display: none;
+}
+#extendGrabber{
+  display: none;
+}
+#cryptology{
+  display: none;
+}
+
+/* 5th grade  */
+#hydroBridge{
+  display: none;
+}
+#aquaducts{
+  display: none;
+}
 #CAD{
   display: none;
 }
-#wireMazes{
+#motorizedBoats{
+  display: none;
+}
+#coding5{
+  display: none;
+}
+
+/* 6th grade  */
+#gameDesign{
+  display: none;
+}
+#makeyMakey{
+  display: none;
+}
+#hotAirBalloon{
+  display: none;
+}
+#coding6{
   display: none;
 }
 #threeDPrinting{
-  display: none;
-}
-
-
-#5circuits{
-  display: none;
-}
-#5makeyMakey{
-  display: none;
-}
-#5CAD{
-  display: none;
-}
-#5wireMazes{
-  display: none;
-}
-#5threeDPrinting{
-  display: none;
-}
-
-#6circuits{
-  display: none;
-}
-#6makeyMakey{
-  display: none;
-}
-#6CAD{
-  display: none;
-}
-#6wireMazes{
-  display: none;
-}
-#6threeDPrinting{
   display: none;
 }
     </style>
@@ -342,27 +345,27 @@ h3{
         <div class="fourthGradeProjects">
           <button onclick="circuitsOn()" class="fourthProject">Circuits</button> 
           <button onclick="makeyMakeyOn()" class="fourthProject">Makey Makey</button> 
-          <button onclick="CADOn()" class="fourthProject">CAD</button> 
-          <button onclick="wireMazesOn()" class="fourthProject">Wire mazes</button> 
-          <button onclick="threeDPrintingOn()" class="fourthProject">3D printing</button> 
+          <button onclick="forcesAndPropsOn()" class="fourthProject">Propeller boats</button> 
+          <button onclick="extendGrabberOn()" class="fourthProject">Extended grabber</button> 
+          <button onclick="cryptologyOn()" class="fourthProject">Cryptology</button> 
         </div>         
       4th</a>
       <a href="#" id="fifth">
         <div class="fifthGradeProjects">
-          <button onclick="circuitsOn5()" class="fifthProject">5Circuits</button> 
-          <button onclick="makeyMakeyOn5()" class="fifthProject">5Makey Makey</button> 
-          <button onclick="CADOn5()" class="fifthProject">5CAD</button> 
-          <button onclick="wireMazesOn5()" class="fifthProject">5Wire mazes</button> 
-          <button onclick="threeDPrintingOn5()" class="fifthProject">53D printing</button> 
+          <button onclick="hydroBridgeOn()" class="fifthProject">Hydrolic bridges</button> 
+          <button onclick="aquaductsOn()" class="fifthProject">Aquaducts</button> 
+          <button onclick="CADOn()" class="fifthProject">CAD</button> 
+          <button onclick="motorizedBoatsOn()" class="fifthProject">Motorized Boats</button> 
+          <button onclick="coding5On()" class="fifthProject">Coding and robotics</button> 
         </div>         
       5th</a>
       <a href="#" id="sixth">
         <div class="sixthGradeProjects">
-          <button onclick="circuitsOn6()" class="sixthProject">6Circuits</button> 
-          <button onclick="makeyMakeyOn6()" class="sixthProject">6Makey Makey</button> 
-          <button onclick="CADOn6()" class="sixthProject">6CAD</button> 
-          <button onclick="wireMazesOn6()" class="sixthProject">6Wire mazes</button> 
-          <button onclick="threeDPrintingOn6()" class="sixthProject">63D printing</button> 
+          <button onclick="gameDesignOn()" class="sixthProject">Game design</button> 
+          <button onclick="makeyMakeyOn()" class="sixthProject">Makey Makey</button> 
+          <button onclick="hotAirBalloonOn()" class="sixthProject">Hot air balloon</button> 
+          <button onclick="coding6On()" class="sixthProject">Coding and robotics</button> 
+          <button onclick="threeDPrintingOn()" class="sixthProject">3D printing</button> 
         </div>         
       6th</a>
     </div>
@@ -583,6 +586,62 @@ h3{
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
     
+    <div class="contentPane" id="forcesAndProps">
+      <h1>Propeller Boats</h1>
+      <img src="http://www.miniscience.com/kits/CarBoat/Air_Propelled_Boat_LL.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="extendGrabber">
+      <h1>Extended Grabber</h1>
+      <img src="https://thumbs.gfycat.com/ParchedPointlessBalloonfish-size_restricted.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="cryptology">
+      <h1>Cryptology</h1>
+      <img src="https://i.makeagif.com/media/11-21-2017/TsT_y7.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------FIFTH GRADE--------------------------------->    
+    <div class="contentPane" id="hydroBridge">
+      <h1>Hydrolic Bridges</h1>
+      <img src="https://thumbs.gfycat.com/WeeklyGoodnaturedJellyfish-size_restricted.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="aquaducts">
+      <h1>Aquaducts</h1>
+      <img src="https://media.giphy.com/media/XqzegKJC0sqJi/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
     <div class="contentPane" id="CAD">
       <h1>CAD (Computer-Aided Design)</h1>
       <img src="https://i.ytimg.com/vi/u-Ky9MxVhCg/maxresdefault.jpg" style="width:350px; float:right;">
@@ -594,9 +653,65 @@ h3{
       <p>Hover over the buttons in the left side navigation to open</p>
     </div>
     
-    <div class="contentPane" id="wireMazes">
-      <h1>Wire Mazes</h1>
-      <img src="https://cdn.thingiverse.com/assets/0e/65/9f/f3/33/FluxCapacitor-1.gif" alt="picture" style="width:350px; float:right;">
+    <div class="contentPane" id="motorizedBoats">
+      <h1>Propeller Boats</h1>
+      <img src="http://www.miniscience.com/kits/CarBoat/Air_Propelled_Boat_LL.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="coding5">
+      <h1>Coding and Robotics</h1>
+      <img src="https://www.roboticgizmos.com/wp-content/uploads/2016/01/29/dash-robot-launcher.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------SIXTH GRADE--------------------------------->        
+    <div class="contentPane" id="gameDesign">
+      <h1>Labyrinth Game Design</h1>
+      <img src="https://i.pinimg.com/originals/09/40/85/0940857d0f35dfa21f070230402bdc2d.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="makeyMakey">
+      <h1>Makey Makey</h1>
+      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="hotAirBalloon">
+      <h1>Hot Air Baloons</h1>
+      <img src="https://i5.walmartimages.com/asr/900887e3-3f15-41b3-b42d-bf79bd18dbd6_1.c11590236d47270ba2771380bd100449.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="coding6">
+      <h1>Coding and Robotics</h1>
+      <img src="https://www.makewonder.com/wp-content/uploads/sites/4/2018/07/1_o0v4j15SWAs0GaOstGx6jA.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
       <h2>~ Key Topics</h2>
@@ -607,118 +722,6 @@ h3{
         
     <div class="contentPane" id="threeDPrinting">
       <h1>3D Printing</h1>
-      <img src="https://media.giphy.com/media/XKSMiiFwoihHy/giphy.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-<!---------------------------------FIFTH GRADE--------------------------------->    
-    <div class="contentPane" id="5circuits">
-      <h1>5Circuits</h1>
-      <img src="https://ksr-ugc.imgix.net/assets/012/382/767/7bcf6e96ca749ad8c3ccda6502b3f28e_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463758159&auto=format&frame=1&q=92&s=d460658c3ab90118435c6ef53fa103f7" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-  
-    <div class="contentPane" id="5makeyMakey">
-      <h1>5Makey Makey</h1>
-      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-    <div class="contentPane" id="5CAD">
-      <h1>5CAD (Computer-Aided Design)</h1>
-      <img src="https://i.ytimg.com/vi/u-Ky9MxVhCg/maxresdefault.jpg" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-    <div class="contentPane" id="5wireMazes">
-      <h1>5Wire Mazes</h1>
-      <img src="https://cdn.thingiverse.com/assets/0e/65/9f/f3/33/FluxCapacitor-1.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-        
-    <div class="contentPane" id="5threeDPrinting">
-      <h1>53D Printing</h1>
-      <img src="https://media.giphy.com/media/XKSMiiFwoihHy/giphy.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-<!---------------------------------SIXTH GRADE--------------------------------->        
-    <div class="contentPane" id="6circuits">
-      <h1>6Circuits</h1>
-      <img src="https://ksr-ugc.imgix.net/assets/012/382/767/7bcf6e96ca749ad8c3ccda6502b3f28e_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463758159&auto=format&frame=1&q=92&s=d460658c3ab90118435c6ef53fa103f7" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-  
-    <div class="contentPane" id="6makeyMakey">
-      <h1>6Makey Makey</h1>
-      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-    <div class="contentPane" id="6CAD">
-      <h1>6CAD (Computer-Aided Design)</h1>
-      <img src="https://i.ytimg.com/vi/u-Ky9MxVhCg/maxresdefault.jpg" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-    
-    <div class="contentPane" id="6wireMazes">
-      <h1>6Wire Mazes</h1>
-      <img src="https://cdn.thingiverse.com/assets/0e/65/9f/f3/33/FluxCapacitor-1.gif" alt="picture" style="width:350px; float:right;">
-      <h2>~ Project Description</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Key Topics</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-      <h2>~ Process</h2>
-      <p>Hover over the buttons in the left side navigation to open</p>
-    </div>
-        
-    <div class="contentPane" id="6threeDPrinting">
-      <h1>63D Printing</h1>
       <img src="https://media.giphy.com/media/XKSMiiFwoihHy/giphy.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
@@ -862,6 +865,42 @@ function makeyMakeyOn(){
     }
     document.getElementById("makeyMakey").style.display = "block";
 }
+function forcesAndPropsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("forcesAndProps").style.display = "block";	
+}
+function extendGrabberOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("extendGrabber").style.display = "block";
+}
+function cryptologyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("cryptology").style.display = "block";	
+}
+/////////////////////////   5th grade    /////////////////////
+function hydroBridgeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("hydroBridge").style.display = "block";
+}
+function aquaductsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("aquaducts").style.display = "block";
+}
 function CADOn(){
 	var x = document.getElementsByClassName("contentPane");
     for(var i = 0; i < x.length; i++){
@@ -869,12 +908,48 @@ function CADOn(){
     }
     document.getElementById("CAD").style.display = "block";	
 }
-function wireMazesOn(){
+function motorizedBoatsOn(){
 	var x = document.getElementsByClassName("contentPane");
     for(var i = 0; i < x.length; i++){
 	    x[i].style.display = "none";    	
     }
-    document.getElementById("wireMazes").style.display = "block";
+    document.getElementById("motorizedBoats").style.display = "block";
+}
+function coding5On(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("coding5").style.display = "block";	
+}
+/////////////////////////   6th grade    /////////////////////
+function gameDesignOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("gameDesign").style.display = "block";
+}
+function makeyMakeyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("makeyMakey").style.display = "block";
+}
+function hotAirBalloonOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("hotAirBalloon").style.display = "block";	
+}
+function coding6On(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("coding6").style.display = "block";
 }
 function threeDPrintingOn(){
 	var x = document.getElementsByClassName("contentPane");
@@ -882,78 +957,6 @@ function threeDPrintingOn(){
 	    x[i].style.display = "none";    	
     }
     document.getElementById("threeDPrinting").style.display = "block";	
-}
-/////////////////////////   5th grade    /////////////////////
-function circuitsOn5(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-	document.getElementById("5circuits").style.display = "block";
-}
-function makeyMakeyOn5(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("5makeyMakey").style.display = "block";
-}
-function CADOn5(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("5CAD").style.display = "block";	
-}
-function wireMazesOn5(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("5wireMazes").style.display = "block";
-}
-function threeDPrintingOn5(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("5threeDPrinting").style.display = "block";	
-}
-/////////////////////////   6th grade    /////////////////////
-function circuitsOn6(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-	document.getElementById("6circuits").style.display = "block";
-}
-function makeyMakeyOn6(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("6makeyMakey").style.display = "block";
-}
-function CADOn6(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("6CAD").style.display = "block";	
-}
-function wireMazesOn6(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("6wireMazes").style.display = "block";
-}
-function threeDPrintingOn6(){
-	var x = document.getElementsByClassName("contentPane");
-    for(var i = 0; i < x.length; i++){
-	    x[i].style.display = "none";    	
-    }
-    document.getElementById("6threeDPrinting").style.display = "block";	
 }
 
 
