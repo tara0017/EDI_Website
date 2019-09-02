@@ -336,7 +336,7 @@ h3{
           <button onclick="bridgesThreeOn()" class="thirdProject">Complex bridges</button> 
           <button onclick="windTurbineOn()" class="thirdProject">Wind turbine</button> 
           <button onclick="rocketsThreeOn()" class="thirdProject">Rockets</button> 
-          <button onclick="thermalImagingThreeOn()" class="thirdProject">Thermal Imaging</button> 
+          <button onclick="thermalImagingThreeOn()" class="thirdProject">Thermal imaging</button> 
           <button onclick="roboticsThreeOn()" class="thirdProject">Robotics</button> 
         </div>      
       
@@ -352,10 +352,10 @@ h3{
       4th</a>
       <a href="#" id="fifth">
         <div class="fifthGradeProjects">
-          <button onclick="hydroBridgeOn()" class="fifthProject">Hydrolic bridges</button> 
+          <button onclick="hydroBridgeOn()" class="fifthProject">Hydraulic bridges</button> 
           <button onclick="aquaductsOn()" class="fifthProject">Aquaducts</button> 
           <button onclick="CADOn()" class="fifthProject">CAD</button> 
-          <button onclick="motorizedBoatsOn()" class="fifthProject">Motorized Boats</button> 
+          <button onclick="motorizedBoatsOn()" class="fifthProject">Motorized boats</button> 
           <button onclick="coding5On()" class="fifthProject">Coding and robotics</button> 
         </div>         
       5th</a>
@@ -379,7 +379,7 @@ h3{
       
       <ul>
      	<li>Relevant and Realistic. Providing an engaging, modern, real-world experience,</li>
-     	<li>Team Based. Emphasizing the “Three C’s” of communication, collaboration and compromise,</li>
+     	<li>Team Based. Emphasizing the Â“Three CÂ’sÂ” of communication, collaboration and compromise,</li>
         <li>Empathetically Driven. Identifying the needs of the community, working to improve society</li>
       </ul>
      
@@ -395,7 +395,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Budget, client, resources</p>
       <h2>~ Process</h2>
-      <p>We start the year by reading the book "Sad Doggy" by Jennifer B. Lawrence. Through this story we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
+      <p>We start the year by reading the book "Sad Doggy" by Jennifer B. Lawrence. Through this story, we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
       <ul>Integration of the three C's
       	<li>Communication:</li>
         <li>Collaboration:</li>
@@ -446,7 +446,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Algorithms</p>
       <h2>~ Process</h2>
-      <p>These robotic mice require the students to plan a route for the mouse. It must navigate around road blocks and through arches to reach the cheese. Students lay down cards which help them  program the mice using forward, backward, right, and left buttons. On the first day students attempt to complete basic routes as they gain familiarity with the robots. The next day, teacher designed routes add a level of complexity. Students have a wide array of routes to choose from, which helps tailor the insturction to each individual's ability. The next day students design their own routes and challenge classmates to complete their maze. On the final day, a giant maze is set up with multiple starting points.  Students attempt to solve as many routes as possible in order to win a prize.</p>
+      <p>These robotic mice require the students to plan a route for the mouse. It must navigate around roadblocks and through arches to reach the cheese. Students lay down cards which help them  program the mice using forward, backward, right, and left buttons. On the first day students attempt to complete basic routes as they gain familiarity with the robots. The next day, teacher-designed routes add a level of complexity. Students have a wide array of routes to choose from, which helps tailor the instruction to each individual's ability. The next day students design their own routes and challenge classmates to complete their maze. On the final day, a giant maze is set up with multiple starting points.  Students attempt to solve as many routes as possible in order to win a prize.</p>
     </div>
     
     
@@ -459,7 +459,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Plate tectonics</p>
       <h2>~ Process</h2>
-      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe opperating proceedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks with which they attempt to make the tower 6" taller.</p>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe operating procedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks with which they attempt to make the tower 6" taller.</p>
     </div>
   
     <div class="contentPane" id="buoyancy">
@@ -470,7 +470,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Buoyancy, displacement</p>
       <h2>~ Process</h2>
-      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of alluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
+      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of aluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
     </div>
     
     <div class="contentPane" id="thermalImaging">
@@ -481,18 +481,18 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Thermal imaging, infrared wavelength</p>
       <h2>~ Process</h2>
-      <p>In this unit students use infrared cameras attached to ipads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
+      <p>In this unit, students use infrared cameras attached to iPads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
     </div>
         
     <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
       <h1>Zip Lines</h1>
       <img src="https://ds-assets.pbskids.org/diy/PA162663.JPG" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Students explore zip lines as a tool for recue in the event of a catastrophe.</p>
+      <p>Students explore zip lines as a tool for rescue in the event of a catastrophe.</p>
       <h2>~ Key Topics</h2>
       <p>Slope, break block, friction</p>
       <h2>~ Process</h2>
-      <p>This unit begins with students attempting to rescue a puppy (golf ball) with the use of a zip line. The objective is to get the cup to stop within a foot of the table leg.If they are successful, their next challenge is to recue a kitten (wooden ball).  Each time they complete the task, they move on to the next animal (i.e. horse with a metal ball and bunny with a ping pong ball). The next round of challenges involves dropping the balls into a cup, that is placed on the floor at the bottom of the zip line.</p>
+      <p>This unit begins with students attempting to rescue a puppy (golf ball) with the use of a zip line. The objective is to get the cup to stop within a foot of the table leg. If they are successful, their next challenge is to recue a kitten (wooden ball).  Each time they complete the task, they move on to the next animal (i.e. horse with a metal ball and bunny with a ping pong ball). The next round of challenges involves dropping the balls into a cup, that is placed on the floor at the bottom of the zip line.</p>
     </div>
     
     <div class="contentPane" id="roboticsTwo">
@@ -503,7 +503,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Coding, algorithms</p>
       <h2>~ Process</h2>
-      <p>In this unit students are introduced to a new robotics platform, the Dash robot. We begin with a few introductory lessons aimed at familiarizing the students with the robot's drag-and-drop coding software, as well as the range of its capabilities. Once students are familiar with the robot, they are then challenged to navigate Dash through various obstacle courses.</p>
+      <p>In this unit, students are introduced to a new robotics platform, the Dash robot. We begin with a few introductory lessons aimed at familiarizing the students with the robot's drag-and-drop coding software, as well as the range of its capabilities. Once students are familiar with the robot, they are then challenged to navigate Dash through various obstacle courses.</p>
     </div>
     
 <!---------------------------------THIRD GRADE--------------------------------->    
@@ -511,11 +511,11 @@ h3{
       <h1>Complex Bridges</h1>
       <img src="https://i.pinimg.com/originals/c0/6f/e2/c06fe29a5fbb745a8e37c8da4133a751.jpg" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
-      <p>Expanding on our introductory work with bridges in 1st grade, students explore and build different types of bridges using popsticle sticks and hot glue guns.</p>
+      <p>Expanding on our introductory work with bridges in 1st grade, students explore and build different types of bridges using popsicle sticks and hot glue guns.</p>
       <h2>~ Key Topics</h2>
       <p>Span, arch, truss, and suspension bridge</p>
       <h2>~ Process</h2>
-      <p>We begin this unit by introducing students to the various types of bridges and the advantages and disadvantages of each. Additionally, since this is the first time many of these students will be using hot glue guns, we walk through safety rules when using this equipment.  Our next step is to practice by building a simple span bridge.  After completing and testing these, students next select the type of bridge they want to build for the competition. After designing and sketching out their plan, each pair of students builds their bridge. These are used in a competiton to see which one can hold the most weight.</p>
+      <p>We begin this unit by introducing students to the various types of bridges and the advantages and disadvantages of each. Additionally, since this is the first time many of these students will be using hot glue guns, we walk through safety rules when using this equipment.  Our next step is to practice by building a simple span bridge.  After completing and testing these, students next select the type of bridge they want to build for the competition. After designing and sketching out their plan, each pair of students builds their bridge. These are used in a competition to see which one can hold the most weight.</p>
     </div>
   
     <div class="contentPane" id="windTurbine">
@@ -526,7 +526,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Renewable wind energy, wind turbine</p>
       <h2>~ Process</h2>
-      <p>In this project we explore the concept of renewable energy sources. We then narrow our focus by examining wind energy specifically. Throughout this unit students will itterate through mutiple wind blade designs in an attempt to generate as much power as possible when a fan is blowing at it. In the past, this has been a cross-curriculur project as it has aligned with Spanish classes looking at Don Quixote and also with visiting author William Kamkwamba ("The Boy Who Harnessesd the Wind").</p>
+      <p>In this project, we explore the concept of renewable energy sources. We then narrow our focus by examining wind energy specifically. Throughout this unit, students will iterate through multiple wind blade designs in an attempt to generate as much power as possible when a fan is blowing at it. In the past, this has been a cross-curricular project as it has aligned with Spanish classes looking at Don Quixote and also with visiting author William Kamkwamba ("The Boy Who Harnessed the Wind").</p>
     </div>
     
     <div class="contentPane" id="rocketsThree">
@@ -537,7 +537,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Launch angle, thrust, constant/variable</p>
       <h2>~ Process</h2>
-      <p>Students were initialy introduced to rockets and the associated forces in 1st grade. This unit adds a level of complexity by attempting to control and quantify the variables influancing the rocket, namely the thrust and launch angle. We begin by keeping the launch angle at a constant 30 degrees and launching the rockets with different thrusts. Students record their data from the day for analysis at the end. The following day we switch  the constant and variable. The thrust is kept constant as the rocket is fired using varied launch angles. Once again, students record their results for further analysis.  On the last day of this project students must use their previous data to select the thrust and launch angle in order to hit a preditermined target distance.
+      <p>Students were initially introduced to rockets and the associated forces in 1st grade. This unit adds a level of complexity by attempting to control and quantify the variables influencing the rocket, namely the thrust and launch angle. We begin by keeping the launch angle at a constant 30 degrees and launching the rockets with different thrusts. Students record their data from the day for analysis at the end. The following day we switch  the constant and variable. The thrust is kept constant as the rocket is fired using varied launch angles. Once again, students record their results for further analysis.  On the last day of this project, students must use their previous data to select the thrust and launch angle in order to hit a predetermined target distance.
 </p>
     </div>
     
@@ -549,7 +549,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Thermal imaging, infrared wavelength</p>
       <h2>~ Process</h2>
-      <p>In this unit students use infrared cameras attached to ipads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
+      <p>In this unit, students use infrared cameras attached to iPads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
     </div>
         
     <div class="contentPane" id="roboticsThree">
@@ -560,7 +560,7 @@ h3{
       <h2>~ Key Topics</h2>
       <p>Algorithms, coding</p>
       <h2>~ Process</h2>
-      <p>This unit is intended to build upon and further develop students' coding skills from 2nd grade.  By now students have a basic understanding of the robots and how to control them. Our next goal is to incorporate more complex challenges. In addition, we also incorporate a variety of games that require strategy, cooperation and planning between classmates/teammates.</p>
+      <p>This unit is intended to build upon and further develop students' coding skills from 2nd grade.  By now students have a basic understanding of the robots and how to control them. Our next goal is to incorporate more complex challenges. In addition, we also incorporate a variety of games that require strategy, cooperation, and planning between classmates/teammates.</p>
     </div>
     
 <!---------------------------------FOURTH GRADE--------------------------------->    
@@ -621,7 +621,7 @@ h3{
     
 <!---------------------------------FIFTH GRADE--------------------------------->    
     <div class="contentPane" id="hydroBridge">
-      <h1>Hydrolic Bridges</h1>
+      <h1>Hydraulic Bridges</h1>
       <img src="https://thumbs.gfycat.com/WeeklyGoodnaturedJellyfish-size_restricted.gif" alt="picture" style="width:350px; float:right;">
       <h2>~ Project Description</h2>
       <p>Hover over the buttons in the left side navigation to open</p>
