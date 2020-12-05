@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+button{
+  border-radius: 10px;
+}
+
+#mySidenav a {
+    position: fixed; 
+    left: -480px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 500px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-align: right;
+    color: black;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home{
+	position: fixed;
+    margin-top: -110px;
+    left: 10px;
+    border-radius: 0;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+}
+
+#topNav {
+    width: 110%;
+    background-color: black;
+    color: white;
+    height: 115px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: -10px;
+}
+#topNav h3{
+    margin-top: -10px;
+}
+#schoolInfo {
+    color: white;
+    text-align: right;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    line-height: 0%
+}
+h1{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+#first {
+    top: 170px;
+    background-color: red;
+}
+
+.firstProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.firstGradeProjects button:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+#second {
+    top: 230px;
+    background-color: orange;
+}
+
+.secondProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.secondGradeProjects button:hover {
+    background-color: #ff7000;
+    color: white;
+}
+
+#third {
+    top: 290px;
+    background-color: yellow;
+}
+.thirdProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.thirdGradeProjects button:hover {
+    background-color: #f7cf16;
+    
+}
+
+#fourth {
+    top: 350px;
+    background-color: #0F0;
+}
+.fourthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.fourthGradeProjects button:hover {
+    background-color: green;
+    color: white;
+}
+
+#fifth {
+    top: 410px;
+    background-color: blue;
+}
+.fifthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.fifthGradeProjects button:hover {
+    background-color: #2616a0;
+    color: white;
+}
+
+#sixth {
+    top: 470px;
+    background-color: purple;
+}
+.sixthProject {
+    float: left;
+    background-color: white;
+    height: 38px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: 2px;
+    width: 18%;
+}
+
+.sixthGradeProjects button:hover {
+    background-color: #530b5e;
+    color: white;
+}
+.contentPane{
+  margin-left:80px;
+  margin-top: 120px;
+  display: none;
+}
+
+#mission{
+  display: block;
+}
+#dogBeds{
+  display: none;
+}
+#bridgesOne{
+  display: none;
+}
+#strawRocketsOne{
+  display: none;
+}
+#leverAndFulcrum{
+  display: none;
+}
+#roboticsOne{
+  display: none;
+}
+
+#earthquakeTowers{
+  display: none;
+}
+#buoyancy{
+  display: none;
+}
+#thermalImaging{
+  display: none;
+}
+#zipLinesTwo{
+  display: none;
+}
+#roboticsTwo{
+  display: none;
+}
+
+#bridgesThree{
+  display: none;
+}
+#windTurbine{
+  display: none;
+}
+#rocketsThree{
+  display: none;
+}
+#thermalImagingThree{
+  display: none;
+}
+#roboticsThree{
+  display: none;
+}
+
+
+/* 4th grade  */
+#circuits{
+  display: none;
+}
+#makeyMakey{
+  display: none;
+}
+#forcesAndProps{
+  display: none;
+}
+#extendGrabber{
+  display: none;
+}
+#cryptology{
+  display: none;
+}
+
+/* 5th grade  */
+#hydroBridge{
+  display: none;
+}
+#aquaducts{
+  display: none;
+}
+#CAD{
+  display: none;
+}
+#motorizedBoats{
+  display: none;
+}
+#coding5{
+  display: none;
+}
+
+/* 6th grade  */
+#gameDesign{
+  display: none;
+}
+#makeyMakey{
+  display: none;
+}
+#hotAirBalloon{
+  display: none;
+}
+#coding6{
+  display: none;
+}
+#threeDPrinting{
+  display: none;
+}
+    </style>
+  </head>
+
+<!----------------------------->
+
+  <body>
+    
+
+    
+    <div id="topNav">
+      <h1>EDI</h1>
+          
+    <div id="schoolInfo">
+      <h4>Norfolk Academy</h4>
+      <h4>1585 Wesleyan Dr</h4>
+      <h4>Norfolk, VA 23502</h4>
+    </div>
+      <h3>Engineering Design and Innovation</h3>
+    </div>
+    
+
+    
+    <button onclick="homePage()" id="home">Home</button> 
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="#" id="first">
+        <div class="firstGradeProjects">
+          <button onclick="dogBedsOn()" class="firstProject" >Dog beds</button> 
+          <button onclick="bridgesOneOn()" class="firstProject" onclick="myFunction()">Bridges</button> 
+          <button onclick="strawRocketsOn()" class="firstProject">Straw rockets</button> 
+          <button onclick="leverAndFulcrumOn()" class="firstProject">Playground physics</button> 
+          <button onclick="roboticsOneOn()" class="firstProject">Robotics</button> 
+        </div>
+        1st
+      </a>
+      <a href="#" id="second">
+        <div class="secondGradeProjects">
+          <button onclick="earthquakeTowersOn()" class="secondProject">Earthquake towers</button> 
+          <button onclick="buoyancyOn()" class="secondProject">Buoyancy</button> 
+          <button onclick="thermalImagingOn()" class="secondProject">Thermal imaging</button> 
+          <button onclick="zipLinesTwoOn()" class="secondProject">Zip lines</button> 
+          <button onclick="roboticsTwoOn()" class="secondProject">Robotics</button> 
+        </div>      
+        2nd</a>
+      <a href="#" id="third">
+        <div class="thirdGradeProjects">
+          <button onclick="bridgesThreeOn()" class="thirdProject">Complex bridges</button> 
+          <button onclick="windTurbineOn()" class="thirdProject">Wind turbine</button> 
+          <button onclick="rocketsThreeOn()" class="thirdProject">Rockets</button> 
+          <button onclick="thermalImagingThreeOn()" class="thirdProject">Thermal imaging</button> 
+          <button onclick="roboticsThreeOn()" class="thirdProject">Robotics</button> 
+        </div>      
+      
+      3rd</a>
+      <a href="#" id="fourth">
+        <div class="fourthGradeProjects">
+          <button onclick="circuitsOn()" class="fourthProject">Circuits</button> 
+          <button onclick="makeyMakeyOn()" class="fourthProject">Makey Makey</button> 
+          <button onclick="forcesAndPropsOn()" class="fourthProject">Propeller boats</button> 
+          <button onclick="extendGrabberOn()" class="fourthProject">Extended grabber</button> 
+          <button onclick="cryptologyOn()" class="fourthProject">Cryptology</button> 
+        </div>         
+      4th</a>
+      <a href="#" id="fifth">
+        <div class="fifthGradeProjects">
+          <button onclick="hydroBridgeOn()" class="fifthProject">Hydraulic bridges</button> 
+          <button onclick="aquaductsOn()" class="fifthProject">Aquaducts</button> 
+          <button onclick="CADOn()" class="fifthProject">CAD</button> 
+          <button onclick="motorizedBoatsOn()" class="fifthProject">Motorized boats</button> 
+          <button onclick="coding5On()" class="fifthProject">Coding and robotics</button> 
+        </div>         
+      5th</a>
+      <a href="#" id="sixth">
+        <div class="sixthGradeProjects">
+          <button onclick="gameDesignOn()" class="sixthProject">Game design</button> 
+          <button onclick="makeyMakeyOn()" class="sixthProject">Makey Makey</button> 
+          <button onclick="hotAirBalloonOn()" class="sixthProject">Hot air balloon</button> 
+          <button onclick="coding6On()" class="sixthProject">Coding and robotics</button> 
+          <button onclick="threeDPrintingOn()" class="sixthProject">3D printing</button> 
+        </div>         
+      6th</a>
+    </div>
+
+<!---------------------------------HOME PAGE--------------------------------->
+    <div class="contentPane" id="mission">
+      <h1>EDI Mission Statement</h1>
+      <img src="https://theworks.org/wp-content/uploads/2017/01/EDP_The_Works_Museum_2016_web.jpg" alt="picture" style="width:350px; float:right;">
+    
+      <p>The Engineering, Design, and Innovation (EDI) program at Norfolk Academy strives to provide an engineering platform for students in grades 1 through 12 by offering classes rich in project-based team challenges rooted in real-world engineering fundamentals. EDI projects should emphasize the physical process of prototype creation, and the production of tangible work products. By utilizing the iterative nature of the engineering design process students develop problem solving skills and technical competence. The EDI program seeks to challenge students with projects that are</p>
+      
+      <ul>
+     	<li>Relevant and Realistic. Providing an engaging, modern, real-world experience,</li>
+     	<li>Team Based. Emphasizing the Three Cs of communication, collaboration and compromise,</li>
+        <li>Empathetically Driven. Identifying the needs of the community, working to improve society</li>
+      </ul>
+     
+      <p>in order to prepare creative and responsible leaders in the workplace and as members of society.</p>
+    </div>
+
+<!---------------------------------FIRST GRADE--------------------------------->
+    <div class="contentPane" id="dogBeds">
+      <h1>Dog Beds</h1>
+      <img src="https://i.pinimg.com/280x280_RS/37/87/c3/3787c3cf944ad5b6158d2c8c82b34208.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Design and build a dog bed for our school mascot "Edi" the bulldog.</p>
+      <h2>~ Key Topics</h2>
+      <p>Budget, client, resources</p>
+      <h2>~ Process</h2>
+      <p>We start the year by reading the book "Sad Doggy" by Jennifer B. Lawrence. Through this story, we introduce the concepts of a client and building for the client's needs and desires. Students are given a budget of coins with which they can purchase materials to build their dog bed. They never have enough coins to buy every material, which forces them to prioritize their needs.</p>
+      <ul>Integration of the three C's
+      	<li>Communication:</li>
+        <li>Collaboration:</li>
+        <li>Compromise:</li>
+      </ul>
+      <p></p>
+    </div>
+  
+    <div class="contentPane" id="bridgesOne">
+      <h1>Simple Span Bridges</h1>
+      <img src="https://dqzrr9k4bjpzk.cloudfront.net/images/75273/428974566.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students build multiple span bridges, each time looking to improve how much weight their bridge is able to hold.</p>
+      <h2>~ Key Topics</h2>
+      <p>Span/beam bridge, support beams</p>
+      <h2>~ Process</h2>
+      <p>The teacher demonstrates how to build the support beams by layering seven layers of sticks alternating between four and three sticks per layer.  Each student then glues their own. Once finished, students combine their support beam with their partner's and add sticks across the beams to form the bridge.  The next class these bridges are tested and the amount of weight held is recorded on the whiteboard. Students then make a second bridge, this time with less direct instruction from the teacher. The third day the process is repeated. The bridge the kids build this day will be used for the competition and therefore should be their best work.  On the fourth class students are allowed to decorate their final bridge with markers and crayons. At the end of class we test the final bridges and students earn candy based on the amount of weight their bridge held.</p>
+    </div>
+    
+    <div class="contentPane" id="strawRocketsOne">
+      <h1>Straw Rockets</h1>
+      <img src="http://teachers.egfi-k12.org/wp-content/uploads/2012/06/rolling-rocket.gif" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students explore the forces that affect how planes and rockets fly by building and testing different designs</p>
+      <h2>~ Key Topics</h2>
+      <p>Forces affecting planes and rockets: <br>
+      &nbsp &nbsp &nbsp &nbsp Thrust, drag, lift, gravity</p>
+      <h2>~ Process</h2>
+      <p>We begin by looking over a powerpoint that explains how each force affects the flight of planes and rockets. Later that day students build paper airplanes and test their design in one of two competitions: A distance challenge and an accuracy challenge (seeing how far they can shoot it through a Hola-Hoop. The next day students bild straw rockets  and test them through our two courses. On the third day we get to experiment a bit more with the rocket design. Students test rockets with different length bodies, different fin design and placement.  On the last day of this project students must take everything they learned and synthesize it to design and build their optimal rocket. We then have a challenge day through our two courses to see which rocket performs best.</p>
+    </div>
+        
+    <div class="contentPane" id="leverAndFulcrum">
+      <h1>Playground Physics</h1>
+      <img src="https://media.giphy.com/media/13nmD9iEcbfRio/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students explore a few simple machines found in playgrounds.</p>
+      <h2>~ Key Topics</h2>
+      <p>Simple machines, lever and fulcrum, inclined plane, pendulum</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="roboticsOne">
+      <h1>Mice Robotics</h1>
+      <img src="https://makingofamom.com/wp-content/uploads/2016/04/through-the-maze.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>First graders get an introduction to robotics and algorithms through robot mice. Students program instructions for the robot to follow in order to reach the cheese</p>
+      <h2>~ Key Topics</h2>
+      <p>Algorithms</p>
+      <h2>~ Process</h2>
+      <p>These robotic mice require the students to plan a route for the mouse. It must navigate around roadblocks and through arches to reach the cheese. Students lay down cards which help them  program the mice using forward, backward, right, and left buttons. On the first day students attempt to complete basic routes as they gain familiarity with the robots. The next day, teacher-designed routes add a level of complexity. Students have a wide array of routes to choose from, which helps tailor the instruction to each individual's ability. The next day students design their own routes and challenge classmates to complete their maze. On the final day, a giant maze is set up with multiple starting points.  Students attempt to solve as many routes as possible in order to win a prize.</p>
+    </div>
+    
+    
+<!---------------------------------SECOND GRADE--------------------------------->    
+    <div class="contentPane" id="earthquakeTowers">
+      <h1>Earthquake Towers</h1>
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_BALSATOWER.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students learn about and attempt to build earthquake-proof towers.</p>
+      <h2>~ Key Topics</h2>
+      <p>Plate tectonics</p>
+      <h2>~ Process</h2>
+      <p>We begin this project with an introduction to earthquakes. Students get a quick background on the layers of the earth, plate tectonics and how these cause earthquakes to occur. Next, we discuss safe operating procedures for the hot glue guns as this is often their first time using these. Students are finally challenged to build a 12" tall tower out of popsicle sticks that will survive our earthquake tower shaker. Each time the tower survives, students are given a few more sticks with which they attempt to make the tower 6" taller.</p>
+    </div>
+  
+    <div class="contentPane" id="buoyancy">
+      <h1>Buoyancy</h1>
+      <img src="http://www.raisingarizonakids.com/wp-content/uploads/2014/02/AlhambraES_sinking-pennies.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students attempt to build boats out of an assortment of materials that will hold as many pennies as possible.</p>
+      <h2>~ Key Topics</h2>
+      <p>Buoyancy, displacement</p>
+      <h2>~ Process</h2>
+      <p>Students are introduced to the concepts of buoyancy and displacement. Each pair of students is given a ball of modeling clay with which to build their boat. Each boat design is tested to see how many pennies it will hold, and results are tracked. The following class students are challenged to beat their old score using nothing but a sheet of aluminum foil and a few straws. The third day students are given a budget sheet where they can select and explore the viability of a range of materials. The last day is our competition day. During this class, students again have a budget sheet from which to select their materials.  The more pennies their boat holds, the more candy they win as a reward.</p>
+    </div>
+    
+    <div class="contentPane" id="thermalImaging">
+      <h1>Thermal Imaging</h1>
+      <img src="http://smashinghub.com/wp-content/uploads/2012/07/thermal-imaging-8.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students get an introduction to the concept of wavelengths, specifically infrared</p>
+      <h2>~ Key Topics</h2>
+      <p>Thermal imaging, infrared wavelength</p>
+      <h2>~ Process</h2>
+      <p>In this unit, students use infrared cameras attached to iPads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
+    </div>
+        
+    <div class="contentPane" id="zipLinesTwo"> <!------CHANGE TO ZIP LINES----------->
+      <h1>Zip Lines</h1>
+      <img src="https://ds-assets.pbskids.org/diy/PA162663.JPG" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students explore zip lines as a tool for rescue in the event of a catastrophe.</p>
+      <h2>~ Key Topics</h2>
+      <p>Slope, break block, friction</p>
+      <h2>~ Process</h2>
+      <p>This unit begins with students attempting to rescue a puppy (golf ball) with the use of a zip line. The objective is to get the cup to stop within a foot of the table leg. If they are successful, their next challenge is to recue a kitten (wooden ball).  Each time they complete the task, they move on to the next animal (i.e. horse with a metal ball and bunny with a ping pong ball). The next round of challenges involves dropping the balls into a cup, that is placed on the floor at the bottom of the zip line.</p>
+    </div>
+    
+    <div class="contentPane" id="roboticsTwo">
+      <h1>Dash Robotics</h1>
+      <img src="https://www.rctecnic.com/img/cms/Dash/dash.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students expand on their understanding of robotics and coding through the use of the Dash robot.</p>
+      <h2>~ Key Topics</h2>
+      <p>Coding, algorithms</p>
+      <h2>~ Process</h2>
+      <p>In this unit, students are introduced to a new robotics platform, the Dash robot. We begin with a few introductory lessons aimed at familiarizing the students with the robot's drag-and-drop coding software, as well as the range of its capabilities. Once students are familiar with the robot, they are then challenged to navigate Dash through various obstacle courses.</p>
+    </div>
+    
+<!---------------------------------THIRD GRADE--------------------------------->    
+    <div class="contentPane" id="bridgesThree">
+      <h1>Complex Bridges</h1>
+      <img src="https://i.pinimg.com/originals/c0/6f/e2/c06fe29a5fbb745a8e37c8da4133a751.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Expanding on our introductory work with bridges in 1st grade, students explore and build different types of bridges using popsicle sticks and hot glue guns.</p>
+      <h2>~ Key Topics</h2>
+      <p>Span, arch, truss, and suspension bridge</p>
+      <h2>~ Process</h2>
+      <p>We begin this unit by introducing students to the various types of bridges and the advantages and disadvantages of each. Additionally, since this is the first time many of these students will be using hot glue guns, we walk through safety rules when using this equipment.  Our next step is to practice by building a simple span bridge.  After completing and testing these, students next select the type of bridge they want to build for the competition. After designing and sketching out their plan, each pair of students builds their bridge. These are used in a competition to see which one can hold the most weight.</p>
+    </div>
+  
+    <div class="contentPane" id="windTurbine">
+      <h1>Wind Turbine</h1>
+      <img src="https://archive.manylabs.org/file/project/windTurbine/wind-proto-1200.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students design and test different blades on their turbine in order to generate as much current as possible</p>
+      <h2>~ Key Topics</h2>
+      <p>Renewable wind energy, wind turbine</p>
+      <h2>~ Process</h2>
+      <p>In this project, we explore the concept of renewable energy sources. We then narrow our focus by examining wind energy specifically. Throughout this unit, students will iterate through multiple wind blade designs in an attempt to generate as much power as possible when a fan is blowing at it. In the past, this has been a cross-curricular project as it has aligned with Spanish classes looking at Don Quixote and also with visiting author William Kamkwamba ("The Boy Who Harnessed the Wind").</p>
+    </div>
+    
+    <div class="contentPane" id="rocketsThree">
+      <h1>Rockets</h1>
+      <img src="https://www.pitsco.com/iCongoProductImages/iCg_StrawRocketLaunching2.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>This project explores the relationship between the distance a rocket flies and either the thrust or launch angle.</p>
+      <h2>~ Key Topics</h2>
+      <p>Launch angle, thrust, constant/variable</p>
+      <h2>~ Process</h2>
+      <p>Students were initially introduced to rockets and the associated forces in 1st grade. This unit adds a level of complexity by attempting to control and quantify the variables influencing the rocket, namely the thrust and launch angle. We begin by keeping the launch angle at a constant 30 degrees and launching the rockets with different thrusts. Students record their data from the day for analysis at the end. The following day we switch  the constant and variable. The thrust is kept constant as the rocket is fired using varied launch angles. Once again, students record their results for further analysis.  On the last day of this project, students must use their previous data to select the thrust and launch angle in order to hit a predetermined target distance.
+</p>
+    </div>
+    
+    <div class="contentPane" id="thermalImagingThree">
+      <h1>Thermal Imaging</h1>
+      <img src="https://media0.giphy.com/media/rzggbyhdDX5Ic/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students get an introduction to the concept of wavelengths, specifically infrared</p>
+      <h2>~ Key Topics</h2>
+      <p>Thermal imaging, infrared wavelength</p>
+      <h2>~ Process</h2>
+      <p>In this unit, students use infrared cameras attached to iPads to explore heat signatures of common items around the school. Furthermore, we discuss the uses of these tools in rescue efforts and police work. Students then examine how different colors absorb heat by placing different colored samples in the sun.</p>
+    </div>
+        
+    <div class="contentPane" id="roboticsThree">
+      <h1>Dash Robotics</h1>
+      <img src="https://cdn.shopify.com/s/files/1/2298/6635/products/5_4d7f9320-fb4b-44c6-92a9-eed2817255c8_1600x.png?v=1525887482" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Students further develop their coding skills through the use of Dash robots</p>
+      <h2>~ Key Topics</h2>
+      <p>Algorithms, coding</p>
+      <h2>~ Process</h2>
+      <p>This unit is intended to build upon and further develop students' coding skills from 2nd grade.  By now students have a basic understanding of the robots and how to control them. Our next goal is to incorporate more complex challenges. In addition, we also incorporate a variety of games that require strategy, cooperation, and planning between classmates/teammates.</p>
+    </div>
+    
+<!---------------------------------FOURTH GRADE--------------------------------->    
+    <div class="contentPane" id="circuits">
+      <h1>Circuits</h1>
+      <img src="https://ksr-ugc.imgix.net/assets/012/382/767/7bcf6e96ca749ad8c3ccda6502b3f28e_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463758159&auto=format&frame=1&q=92&s=d460658c3ab90118435c6ef53fa103f7" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="makeyMakey">
+      <h1>Makey Makey</h1>
+      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="forcesAndProps">
+      <h1>Propeller Boats</h1>
+      <img src="http://www.miniscience.com/kits/CarBoat/Air_Propelled_Boat_LL.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="extendGrabber">
+      <h1>Extended Grabber</h1>
+      <img src="https://thumbs.gfycat.com/ParchedPointlessBalloonfish-size_restricted.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="cryptology">
+      <h1>Cryptology</h1>
+      <img src="https://i.makeagif.com/media/11-21-2017/TsT_y7.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------FIFTH GRADE--------------------------------->    
+    <div class="contentPane" id="hydroBridge">
+      <h1>Hydraulic Bridges</h1>
+      <img src="https://thumbs.gfycat.com/WeeklyGoodnaturedJellyfish-size_restricted.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="aquaducts">
+      <h1>Aquaducts</h1>
+      <img src="https://media.giphy.com/media/XqzegKJC0sqJi/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="CAD">
+      <h1>CAD (Computer-Aided Design)</h1>
+      <img src="https://i.ytimg.com/vi/u-Ky9MxVhCg/maxresdefault.jpg" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="motorizedBoats">
+      <h1>Propeller Boats</h1>
+      <img src="http://www.miniscience.com/kits/CarBoat/Air_Propelled_Boat_LL.jpg" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="coding5">
+      <h1>Coding and Robotics</h1>
+      <img src="https://www.roboticgizmos.com/wp-content/uploads/2016/01/29/dash-robot-launcher.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+<!---------------------------------SIXTH GRADE--------------------------------->        
+    <div class="contentPane" id="gameDesign">
+      <h1>Labyrinth Game Design</h1>
+      <img src="https://i.pinimg.com/originals/09/40/85/0940857d0f35dfa21f070230402bdc2d.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+  
+    <div class="contentPane" id="makeyMakey">
+      <h1>Makey Makey</h1>
+      <img src="https://www.kidscode.sg/wp-content/uploads/2013/06/littlecoder-electronics-course-4.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="hotAirBalloon">
+      <h1>Hot Air Baloons</h1>
+      <img src="https://i5.walmartimages.com/asr/900887e3-3f15-41b3-b42d-bf79bd18dbd6_1.c11590236d47270ba2771380bd100449.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+    <div class="contentPane" id="coding6">
+      <h1>Coding and Robotics</h1>
+      <img src="https://www.makewonder.com/wp-content/uploads/sites/4/2018/07/1_o0v4j15SWAs0GaOstGx6jA.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+        
+    <div class="contentPane" id="threeDPrinting">
+      <h1>3D Printing</h1>
+      <img src="https://media.giphy.com/media/XKSMiiFwoihHy/giphy.gif" alt="picture" style="width:350px; float:right;">
+      <h2>~ Project Description</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Key Topics</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+      <h2>~ Process</h2>
+      <p>Hover over the buttons in the left side navigation to open</p>
+    </div>
+    
+
+    
+  <script>
+  
+function homePage(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("mission").style.display = "block";
+}
+/////////////////////////   1st grade    /////////////////////
+function dogBedsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("dogBeds").style.display = "block";
+}
+function bridgesOneOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("bridgesOne").style.display = "block";
+}
+function strawRocketsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("strawRocketsOne").style.display = "block";	
+}
+function leverAndFulcrumOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("leverAndFulcrum").style.display = "block";
+}
+function roboticsOneOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsOne").style.display = "block";	
+}
+/////////////////////////   2nd grade    /////////////////////
+function earthquakeTowersOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("earthquakeTowers").style.display = "block";
+}
+function buoyancyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("buoyancy").style.display = "block";
+}
+function thermalImagingOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("thermalImaging").style.display = "block";	
+}
+function zipLinesTwoOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("zipLinesTwo").style.display = "block";
+}
+function roboticsTwoOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsTwo").style.display = "block";	
+}
+/////////////////////////   3rd grade    /////////////////////
+function bridgesThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("bridgesThree").style.display = "block";
+}
+function windTurbineOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("windTurbine").style.display = "block";
+}
+function thermalImagingThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("thermalImagingThree").style.display = "block";	
+}
+function rocketsThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("rocketsThree").style.display = "block";
+}
+function roboticsThreeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("roboticsThree").style.display = "block";	
+}
+/////////////////////////   4th grade    /////////////////////
+function circuitsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("circuits").style.display = "block";
+}
+function makeyMakeyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("makeyMakey").style.display = "block";
+}
+function forcesAndPropsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("forcesAndProps").style.display = "block";	
+}
+function extendGrabberOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("extendGrabber").style.display = "block";
+}
+function cryptologyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("cryptology").style.display = "block";	
+}
+/////////////////////////   5th grade    /////////////////////
+function hydroBridgeOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("hydroBridge").style.display = "block";
+}
+function aquaductsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("aquaducts").style.display = "block";
+}
+function CADOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("CAD").style.display = "block";	
+}
+function motorizedBoatsOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("motorizedBoats").style.display = "block";
+}
+function coding5On(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("coding5").style.display = "block";	
+}
+/////////////////////////   6th grade    /////////////////////
+function gameDesignOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+	document.getElementById("gameDesign").style.display = "block";
+}
+function makeyMakeyOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("makeyMakey").style.display = "block";
+}
+function hotAirBalloonOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("hotAirBalloon").style.display = "block";	
+}
+function coding6On(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("coding6").style.display = "block";
+}
+function threeDPrintingOn(){
+	var x = document.getElementsByClassName("contentPane");
+    for(var i = 0; i < x.length; i++){
+	    x[i].style.display = "none";    	
+    }
+    document.getElementById("threeDPrinting").style.display = "block";	
+}
+
+
+  </script>  
+  </body>
+</html>
